@@ -34,7 +34,7 @@ function check_screen(width){
         $('#avatar').removeClass("left floated medium circular image").addClass("centered small circular image");
     else
         $('#avatar').removeClass("centered small circular image").addClass("left floated medium circular image");
-    if (width < 750) {
+    if (width <= 750) {
         $('#left-section').removeClass("teal");
         $('.facebook.icon').removeClass('black').addClass('blue');
         $('.google.icon').removeClass('black').addClass('red');
