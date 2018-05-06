@@ -6,6 +6,10 @@ body { position:absolute; top:0; bottom:0; right:0; left:0; }
     margin-top: 0 !important;
 }
 
+h3 {
+    text-transform: uppercase !important;
+}
+
 .text p, a, h2 {
     color: black;
     text-align: center;
