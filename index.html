@@ -5,20 +5,21 @@
     <title>Vladyslav Sorochynskyi - Résumé</title>
     <link rel="me" href="mailto:vladyslav.sorochynskyi@gmail.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.0/semantic.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Gudea|Heebo" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/stylesheets/base.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.0/semantic.min.js"></script>
-    <link rel="stylesheet" href="./assets/stylesheets/base.css">
     <script src="./scripts/main.js"></script>
   </head>
   <body>
       <div class="ui two column stackable grid fullheight">
           <div class="stretched row">
-            <div class="teal six wide column">
+            <div id="left-section" class="teal six wide column">
               <div class="ui basic segment">
                   <img id="avatar" class="ui centered medium circular image" src="./assets/images/avatar.jpg">
                   <div class="text">
                       <h2 class="ui header">Vladyslav Sorochynskyi</h2>
-                      <p>I`m an Applied Mathematics student from Kyiv. Since I finally decided, what path to follow in my professional career (and that is Java Script) I have started to prepare myself for the Binary Studio Academy. My strongest ambition is to master modern possibilities of this unique language, which can do pretty anything, to join a growing community of Full Stack Java Script developers.</p>
+                      <p>I'm an Applied Mathematics student from Kyiv. Since I finally decided, what path to follow in my professional career (and that is Java Script) I have started to prepare myself for the Binary Studio Academy. My strongest ambition is to master modern possibilities of this unique language, which can do pretty anything, to join a growing community of Full Stack Java Script developers.</p>
                   </div>
                   <button id="contact-button" class="ui black basic button"><b>Contact</b></button>
                   <div id="contacts">
@@ -26,60 +27,75 @@
                       <p><i class="black google icon"></i><a href="mailto:vladyslav.sorochynskyi@gmail.com">vladyslav.sorochynskyi@gmail.com</a></p>
                   </div>
                   <div class="text">
-                      <h3 class="ui header">Skills</h3>
-                      <p>HTML, CSS, JavaScript, JQuery, Node.js, SQL, MongoDB</p>  
+                      <h3 class="mint">Skills</h3>
+                      <div class="ui horizontal list">
+                        <div class="item"><p>HTML</p></div>
+                        <div class="item"><p>CSS</p></div>
+                        <div class="item"><p>JavaScript</p></div>
+                        <div class="item"><p>JQuery</p></div>
+                        <div class="item"><p>Node.js</p></div>
+                        <div class="item"><p>SQL</p></div>
+                        <div class="item"><p>MongoDB</p></div>
+                      </div>  
                   </div>  
                   <div class="text">
-                      <h3 class="ui header">Languages</h3>
+                      <h3 class="mint">Languages</h3>
                       <p>Ukrainian<img class="ui mini spaced image" src="./assets/icons/ukraine_flag.png"> and Russian<img class="ui mini spaced image" src="./assets/icons/russia_flag.png">  (native), English<img class="ui mini spaced image" src="./assets/icons/uk_flag.png"> (fluent), Norwegian<img class="ui mini spaced image" src="./assets/icons/norway_flag.png">  (few words, some sentences with a phrasebook)</p>    
                     </div>   
               </div>
             </div>
             <div class="ten wide column">
               <div class="ui basic segment">
-                <h3 class="ui header">Timeline</h3>
+                <h3 class="mint">Timeline</h3>
                 <p><b>June - December 2017</b> - English teacher at <a href="http://dschool.com.ua/">Denis' School</a> (unofficially), freelance translator <label class="ui red label">experience</label></p>
                 <ul>
-                  <li>taught general, business and legal English</li>
-                  <li>worked with people of different age (from 6 to 60 y. o.) and English level (from Elementary to Upper-Intermediate)</li>
-                  <li>attended psychological trainings</li>
-                  <li>translated interface and manual for accounting software</li>
+                  <li><p>taught general, business and legal English</p></li>
+                  <li><p>worked with people of different age (from 6 to 60 y. o.) and English level (from Elementary to Upper-Intermediate)</p></li>
+                  <li><p>attended psychological trainings</p></li>
+                  <li><p>translated interface and manual for accounting software</p></li>
                 </ul>
                 <p><b>December 2016</b> - passed a lifeguard certification by an <a href="http://www.redcross.org/"><i class="red plus icon"></i> American Red Cross</a>. Got knowledge of: <label class="ui blue label">interesting fact</label></p></p>
                 <ul>
-                  <li>how to get drowning people to shore (conscious and unconscious alike)</li>
-                  <li>how to perform first aid in order to save life</li>
+                  <li><p>how to get drowning people to shore (conscious and unconscious alike)</p></li>
+                  <li><p>how to perform first aid in order to save life</p></li>
                 </ul>
                 <p><b>September 2015</b> - entered Kyiv Polytechnic institute, where I`m currently studying <label class="ui green label">education</label></p>
                 <ul>
-                  <li>got basic knowledge of numerous programming languages (C, C++, C#, Java Script, SQL etc)</li>
-                  <li>completed various course projects</li>
-                  <li>attended different trainings (technical and psychological alike)</li>
-                  <li>became a mentor for freshmen, partook in organizing events for them and helped to integrate themselves in university life rhythm</li>
+                  <li><p>got basic knowledge of numerous programming languages (C, C++, C#, Java Script, SQL etc)</p></li>
+                  <li><p>completed various course projects</p></li>
+                  <li><p>attended different trainings (technical and psychological alike)</p></li>
+                  <li><p>became a mentor for freshmen, partook in organizing events for them and helped to integrate themselves in university life rhythm</p></li>
                 </ul>
                 <p><b>September 2009 - May 2015</b> - studied at Scandinavian gymnasium <label class="ui green label">education</label> </p>
                 <ul>
-                  <li>studied Norwegian a bit</li>
-                  <li>participated in Math, Physics, History and English school olympiads</li>
-                  <li>passed Pearson Test getting B2 English level certificate</li>
-                  <li>got a silver medal for academic achievements</li>
+                  <li><p>studied Norwegian a bit</p></li>
+                  <li><p>participated in Math, Physics, History and English school olympiads</p></li>
+                  <li><p>passed Pearson Test getting B2 English level certificate</p></li>
+                  <li><p>got a silver medal for academic achievements</p></li>
                 </ul>
                 <p><b>September 2004 - May 2009</b> - studied at Olympus primary school</p>
                 <p><b>30<sup>th</sup> June 1998</b> - was born in Kyiv, Ukraine</p>
               </div>
               <div class="ui basic segment">
-                  <h3 class="ui header">Personality</h3>
-                  <p>Friendly, communicative, responsible, quick-tempered (sometimes), inattentive (rarely), reasonable (always)</p>
+                  <h3 class="mint">Personality</h3>
+                  <div class="ui horizontal list">
+                    <div class="item"><p>Friendly</p></div>
+                    <div class="item"><p>Communicative</p></div>
+                    <div class="item"><p>Responsible</p></div>
+                    <div class="item"><p>Quick-tempered (sometimes)</p></div>
+                    <div class="item"><p>Inattentive (rarely)</p></div>
+                    <div class="item"><p>Reasonable (always)</p></div>
+                  </div>
               </div>
               <div class="ui basic segment">
-                <h3 class="ui header">Hobbies</h3>
+                <h3 class="mint">Hobbies</h3>
                 <ul>
-                  <li><b>Boxing</b> (guess that's because I was born on Mike Tyson's birthday)</li>
-                  <li><b>Skiing</b> (I just love the speed and the sound of wind in my ears)</li>
-                  <li><b>Tennis</b> (good for tan as soon as spring starts)</li>
-                  <li><b>Swimming</b> (similar to skiing, but it's water in your ears instead)</li>
-                  <li><b>Travelling</b> (seeing new places is just wonderful)</li>
-                  <li><b>Reading</b> (I do love an intense plot)</li>
+                  <li><p><b>Boxing</b> (guess that's because I was born on Mike Tyson's birthday)</p></li>
+                  <li><p><b>Skiing</b> (I just love the speed and the sound of wind in my ears)</p></li>
+                  <li><p><b>Tennis</b> (good for tan as soon as spring starts)</p></li>
+                  <li><p><b>Swimming</b> (similar to skiing, but it's water in your ears instead)</p></li>
+                  <li><p><b>Travelling</b> (seeing new places is just wonderful)</p></li>
+                  <li><p><b>Reading</b> (I do love an intense plot)</p></li>
                 </ul>
               </div>
             </div>
