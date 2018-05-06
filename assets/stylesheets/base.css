@@ -6,13 +6,38 @@ body { position:absolute; top:0; bottom:0; right:0; left:0; }
     margin-top: 0 !important;
 }
 
-h3 {
+h3, h2 {
     text-transform: uppercase !important;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.25em;
+}
+
+p {
+    font-family: 'Gudea', sans-serif;
+    font-size: 1em;
+}
+
+.text {
+    margin-bottom: 3em;
+}
+
+.mint {
+    background: rgb(0, 181, 173);
+    color: black;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em; 
+    height: 3em;
 }
 
 .text p, a, h2 {
     color: black;
     text-align: center;
+}
+
+#avatar {
+    filter: grayscale(60%);
+    margin-bottom: 1.5em;
 }
 
 #contact-button {
@@ -23,12 +48,32 @@ h3 {
 }
 
 #contacts {
-    visibility: hidden;
+    margin-bottom: 3em;
+}
+
+.time-block ul {
+    display: none;
 }
 
 @media only screen and (min-width: 1024px) {
+    html { font-size: 16px; }
     body {
       padding-left: 15%;
       padding-right: 15%;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) and (min-width: 750px) {
+    html { font-size: 14px; }
+    .text {
+        margin-bottom: 2em;
+    }
+    
+  }
+
+  @media only screen and (max-width: 750px) {
+    html { font-size: 12px; }
+    .text {
+        margin-bottom: 1em;
     }
   }
