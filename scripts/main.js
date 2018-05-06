@@ -14,6 +14,7 @@ $(document).ready(() => {
         });
 
     $('.life-event').on('click', ()=>{
+        $('#tip-timeline-details').fadeOut(300, () => $('#tip-timeline-details').remove());
         $(event.currentTarget).siblings().toggle(300);
     })
     $('.life-event').on('mouseenter', ()=>{
