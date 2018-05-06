@@ -18,15 +18,9 @@ $(document).ready(() => {
         $(event.currentTarget).siblings().toggle(300);
     })
     $('.life-event').on('mouseenter', ()=>{
-        $(event.currentTarget).css({
-            'color': 'rgb(100, 154, 205)',
-            'cursor': 'pointer'
-        });
+        $(event.currentTarget).css('color', 'rgb(100, 154, 205)');
     }).on('mouseleave', ()=>{
-        $(event.currentTarget).css({
-            'color': 'black',
-            'cursor': 'default'
-        });
+        $(event.currentTarget).css('color', 'black');
     })
 });
 
